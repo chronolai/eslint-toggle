@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:eslint-toggle.helloWorld"
+    "onCommand:eslint-toggle.toggle"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "eslint-toggle.helloWorld",
-        "title": "Hello World"
+        "command": "eslint-toggle.toggle",
+        "title": "ESLint Toggle"
       }
     ]
   },
